@@ -1,6 +1,6 @@
 # Note-Taker
-![](./screen-shot/note-taker-express.png)
-![](./screen-shot/note-taker-express2.png)
+![](./screen-shots/note-taker-express.png)
+![](./screen-shots/note-taker-express2.png)
 
 AS A user, I want to be able to write and save notes
 
@@ -14,5 +14,5 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 4. If the user clicks on a note to the left side of the page the note text will populate the two main inputs again. 
 5. When the user clicks on the trash can it will delete the note from the left hand side of the page as well as the database. 
 
-deployed site on heroku below:
+deployed site on heroku:
 https://secure-savannah-08145.herokuapp.com/
