@@ -1,5 +1,6 @@
 # Note-Taker
-
+![](note-taker-express.png)
+![](note-taker-express2.png)
 
 AS A user, I want to be able to write and save notes
 
