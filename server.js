@@ -36,10 +36,10 @@ app.post("/api/notes", (req, res) => {
 })
 
 app.delete("/api/notes/:id", (req, res) => {
-   let note = req.body.id
-   savedNote = savedNote.filter(element=> {
-       return element.id != note
-   })
+//    let note = req.body.id
+//    savedNote = savedNote.filter(element=> {
+//        return element.id != note
+//    })
    fs.writeFileSync("./db/db.json", JSON.stringify(savedNote));
    res.json(savedNote);
 } )
